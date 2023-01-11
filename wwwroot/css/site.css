@@ -15,4 +15,41 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color:black;
+}
+.logo {
+    display: flex;
+    position: relative;
+    margin-top: 80px;
+    width:12%;
+    margin-left:17%;
+
+   
+}
+.HomeImage {
+    display:flex;
+    position:absolute;
+    margin-left:17%;
+    margin-top:38px;
+    width:65%;
+
+    
+}
+.Bar {
+    position:fixed;
+    margin-left:17%;
+    margin-top:250px;
+}
+.NavUl {
+    list-style-type:none;
+    position:relative;
+}
+li {
+    position:relative;
+    display:inline;
+    color:white;
+    font-size: 1vw;
+    padding:10px;
+    z-index:1;
+   
 }
