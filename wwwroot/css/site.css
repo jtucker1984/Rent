@@ -9,15 +9,20 @@
 }
 
 html {
-  position: relative;
-  min-height: 100%;
-  background-color:black;
-
+    position: relative;
+    min-height: 100%;
+    background-color: #5D8AA8;
+    /*height:100vh;
+  width:100vh;*/
+    color: whitesmoke;
 }
 
 body {
-  margin-bottom: 60px;
-  background-color:black;
+    margin-bottom: 60px;
+    background-color: #5D8AA8;
+    /* height: 100vh;
+    width: 100vh;*/
+    color: whitesmoke;
 }
 .logo {
     display: flex;
@@ -61,6 +66,8 @@ li {
     font-size: 1vw;
     padding:10px;
     z-index:1;
+    cursor:pointer;
+    
    
 }
 .TourButton {
@@ -88,3 +95,12 @@ li {
    
     
 }
+table,th,td {
+    border: 1px solid;
+    border-collapse:collapse;
+    width:35%;
+}
+th {
+    width:35%;
+}
+

@@ -1,0 +1,19 @@
+﻿@model Units
+
+<h3>@Model.Unit Information</h3>
+<table>
+    <tr>
+        <th> Tenant Name</th>
+        <th>Tenant ID</th>
+        <th>Unit Number</th>
+        <th>Payments</th>
+    </tr>
+    <tr>
+        <td>@Model.Tenant_Name</td>
+        <th>@Model.Tenant_ID</th>
+        <th>@Model.Unit</th>
+        <th>@Model.Payment</th>
+    </tr>
+</table>
+
+<a href="/Unit/UpdateUnit/@Model.Tenant_ID">Update This Unit</a>

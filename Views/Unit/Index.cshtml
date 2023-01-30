@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Units>
+
+<h2>Units</h2>
+
+<table class="table">
+    <tr>
+        <th>Focus</th>
+        <th class="tenantRow">Tenant Name</th>
+        <th>Tenant ID</th>
+        <th>Unit</th>
+        <th>Payment</th>
+    </tr>
+    @foreach (var category in Model)
+    {
+        <tr>
+            <td><a href=/Unit/ViewTenant/@category.Tenant_ID>@category.Tenant_ID</a></td>
+            <td>@category.Tenant_Name</td>
+            <td>@category.Tenant_ID</td>
+            <td>@category.Unit</td>
+            <td>@category.Payment</td>
+        </tr>
+    }
+
+</table>
+
+  
+
+
